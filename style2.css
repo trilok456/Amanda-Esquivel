@@ -1,0 +1,93 @@
+*{
+    color: rgb(36, 36, 36);
+    font-size: 105%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+textarea#eMails {
+    width: 48%;
+    height: 300px; /* 30 rows */
+}
+
+textarea#body {
+    width: 100%;
+    height: 225px; /* 15 rows */
+}
+
+input[type="text"],input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"]:active, a.logout:active ,a.no:active{
+    background-color: #0400ff;
+}
+
+span#mailWarn{
+    color: red;
+}
+
+h1.sure{
+    font-size: 32px;
+    text-align: center;   
+}
+
+a.logout,a.no{
+  background-color: #45a049;
+  font-size: 16px;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 15%;
+}
+a.logout{
+    float: right;
+}
+
+
+div.logout{
+    display: flex;
+    justify-content: center;    
+}
