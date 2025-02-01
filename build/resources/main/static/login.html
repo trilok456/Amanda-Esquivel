@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="JS/loginJS.js" defer></script>
+    <link rel="stylesheet" href="style2.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+<form id="loginForm">
+    <h2 id="intro"></h2>
+    <h2>Login Here</h2><br><br>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="userName" required>
+            <span id="usernameError" class="error-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+            <span id="passwordError" class="error-message"></span>
+        </div>
+    </div>
+    <br><br>
+    <input type="submit" value="Submit" id="submitButton">
+</form>
+</body>
+</html>

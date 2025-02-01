@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.maillSaviour.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-01T01:38:00" hostname="DESKTOP-VKF2EI6" time="0.606">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.maillSaviour.demo.DemoApplicationTests" time="0.606"/>
+  <system-out><![CDATA[07:07:41.412 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maillSaviour.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:07:41.569 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maillSaviour.demo.DemoApplication for test class com.maillSaviour.demo.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-02-01T07:07:42.108+05:30  INFO 14048 --- [demo] [    Test worker] c.m.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 17.0.12 with PID 14048 (started by LHCP in D:\Mail SEnder\Github\Amanda-Esquivel)
+2025-02-01T07:07:42.109+05:30  INFO 14048 --- [demo] [    Test worker] c.m.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T07:07:43.006+05:30  INFO 14048 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T07:07:43.097+05:30  INFO 14048 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+2025-02-01T07:07:43.661+05:30  INFO 14048 --- [demo] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T07:07:43.736+05:30  INFO 14048 --- [demo] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-01T07:07:43.790+05:30  INFO 14048 --- [demo] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T07:07:44.155+05:30  INFO 14048 --- [demo] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T07:07:44.210+05:30  INFO 14048 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-01T07:07:53.777+05:30  INFO 14048 --- [demo] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50fd739d
+2025-02-01T07:07:53.780+05:30  INFO 14048 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-01T07:07:54.668+05:30  WARN 14048 --- [demo] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-01T07:07:55.261+05:30  INFO 14048 --- [demo] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-01T07:07:56.468+05:30  INFO 14048 --- [demo] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T07:07:59.077+05:30  INFO 14048 --- [demo] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T07:07:59.650+05:30  WARN 14048 --- [demo] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T07:07:59.682+05:30  INFO 14048 --- [demo] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-02-01T07:08:00.038+05:30 DEBUG 14048 --- [demo] [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ConcurrentSessionFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-02-01T07:08:00.467+05:30  INFO 14048 --- [demo] [    Test worker] c.m.demo.DemoApplicationTests            : Started DemoApplicationTests in 18.696 seconds (process running for 20.125)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
